@@ -1,16 +1,15 @@
 {
-  "name": "dockermulticontainer",
-  "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.3.4"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
+  "name": "docker_compose_node_express",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+	},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
