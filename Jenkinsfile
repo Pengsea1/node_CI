@@ -5,7 +5,7 @@ stages {
 stage('Build') {
     steps {
         docker build -t my-image .
-        echo 'Build Successful'
+        echo 'Build Successfulj'
     }
 }
 stage('Deployment'){
