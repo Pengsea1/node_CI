@@ -1,12 +1,14 @@
 pipeline {
-agent any
+    agent any
+
     stages {
-        stage('Build') {
+        stage('compile') {
             steps {
-                
-                docker build -t my-image .
-                
+                dir('aupp-demo') {
+                    sh '''
+                        docker build -t image-mine .
+                    '''
+                }
             }
         }
-    }
 }
