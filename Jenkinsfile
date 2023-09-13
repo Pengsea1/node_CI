@@ -3,9 +3,9 @@ agent any
     stages {
         stage('Build') {
             steps {
-                step{
-                    docker build -t my-image .
-                }
+                
+                docker build -t my-image .
+                
             }
         }
     }
